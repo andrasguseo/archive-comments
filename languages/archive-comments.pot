@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-02-25T00:03:20+00:00\n"
+"POT-Creation-Date: 2024-02-25T00:12:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: archive-comments\n"
@@ -39,50 +39,54 @@ msgstr ""
 msgid "https://andrasguseo.com"
 msgstr ""
 
-#: archive-comments.php:70
+#: archive-comments.php:73
 msgid "Archive this comment"
 msgstr ""
 
-#: archive-comments.php:71
+#: archive-comments.php:74
 msgid "Archive"
 msgstr ""
 
-#: archive-comments.php:158
+#: archive-comments.php:161
 msgid "Archived (%s)"
 msgstr ""
 
-#: archive-comments.php:172
+#: archive-comments.php:175
 msgctxt "Browser title"
 msgid "Archived Comments"
 msgstr ""
 
-#: archive-comments.php:173
+#: archive-comments.php:176
 msgctxt "Menu label"
 msgid "Archived"
 msgstr ""
 
-#: archive-comments.php:192
+#: archive-comments.php:195
 msgid "Archived Comments"
 msgstr ""
 
-#: archive-comments.php:196
+#: archive-comments.php:199
 msgid "No archived comments"
 msgstr ""
 
-#: archive-comments.php:202
+#: archive-comments.php:205
 msgid "ID"
 msgstr ""
 
-#: archive-comments.php:212
-#: archive-comments.php:235
+#: archive-comments.php:215
+#: archive-comments.php:238
 msgid "Unarchive"
 msgstr ""
 
-#: archive-comments.php:226
+#: archive-comments.php:229
 msgid "(Opens in new window)"
 msgstr ""
 
-#: archive-comments.php:234
+#: archive-comments.php:237
 msgctxt "aria label"
 msgid "Unarchive this comment"
+msgstr ""
+
+#: archive-comments.php:272
+msgid "Chip in to my coffee"
 msgstr ""

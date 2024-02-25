@@ -41,6 +41,9 @@ if ( ! class_exists( 'AGU_Archive_Comments' ) ) {
 
 			// Add submenu under Comments
 			add_action( 'admin_menu', [ $this, 'add_archived_comments_submenu' ] );
+
+			// Add link to the plugin meta row.
+			add_filter( 'plugin_row_meta', [ $this, 'plugin_row_meta' ], 10, 2 );
 		}
 
 		/**
@@ -262,6 +265,14 @@ AND comment_type = 'comment'
 " );
 
 			return $archived_comments;
+		}
+
+		public function plugin_row_meta( $links, $file ) {
+			if ( plugin_basename( __FILE__ ) === $file ) {
+				$links[] = '<a href="https://paypal.me/guseo?country.x=CH&locale.x=en_US" target="_blank">' . esc_html__( 'Chip in to my coffee', 'archive-comments' ) . '</a>';
+			}
+
+			return $links;
 		}
 
 	} // class
